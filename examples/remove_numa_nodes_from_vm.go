@@ -1,7 +1,5 @@
 //
-// The oVirt Project - oVirt Engine Go SDK
-//
-// Copyright (c) oVirt Authors
+// Copyright (c) 2020 huihui <huihui.fu@cs2c.com.cn>.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -23,7 +21,7 @@ import (
 	"sort"
 	"time"
 
-	ovirtsdk4 "github.com/ovirt/go-ovirt/v4"
+	ovirtsdk4 "github.com/ovirt/go-ovirt"
 )
 
 func removeNumaNodesFromVm() {

@@ -1,10 +1,6 @@
 //
-// The oVirt Project - oVirt Engine Go SDK
-//
-// Copyright (c) oVirt Authors
-// The oVirt Project - oVirt Engine Go SDK
-//
-// Copyright (c) oVirt Authors
+// Copyright (c) 2017 Joey <majunjiev@gmail.com>.
+// Copyright (c) 2020 Douglas Schilling Landgraf <dougsland@redhat.com>.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -25,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	ovirtsdk4 "github.com/ovirt/go-ovirt/v4"
+	ovirtsdk4 "github.com/ovirt/go-ovirt"
 )
 
 func listVMsTag() {
